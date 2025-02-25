@@ -1,11 +1,11 @@
-# Lab 1 - Introduction to HLS
+# In-Class Exercise - Introduction to HLS
 
 ## Overview
 
-In this lab, we will cover the fundamentals of High-Level Synthesis (HLS) design using a simple example: element-wise vector multiplication. The following techniques will be explored:
+In this in-class opportunity, we will cover the fundamentals of High-Level Synthesis (HLS) design using a simple example: element-wise vector multiplication. The following techniques will be explored:
 
 - Using Vitis HLS through command-line interfaces.
-- Understanding the HLS design process, including:
+- Understanding the Vitis HLS design process, including:
   - **C Compilation:** Translate high-level C code into an executable.
   - **C Simulation:** Verify the functionality of the C code.
   - **C Synthesis:** Generate RTL from C code.

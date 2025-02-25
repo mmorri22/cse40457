@@ -1,4 +1,4 @@
-AUTOPILOT_ROOT :=/tools/software/xilinx/Vitis_HLS/2023.1
+AUTOPILOT_ROOT :=/escnfs/home/csesoft/xilinx/2024-vitis-vivado/Vitis_HLS/2024.2
 
 ASSEMBLE_SRC_ROOT := .
 
@@ -14,4 +14,4 @@ all:
 	g++ *.cpp -o result $(CFLAG) $(IFLAG)
 	
 clean:
-	rm -f *.o result
+	rm -rf *.o result
